@@ -1,18 +1,16 @@
-# @adrianso/react-native-device-brightness
-
-[![npm version](https://badge.fury.io/js/%40adrianso%2Freact-native-device-brightness.svg)](https://badge.fury.io/js/%40adrianso%2Freact-native-device-brightness)
+# @punosmobile/react-native-device-brightness
 
 This is a native module for React Native to control the screen brightness.
 
-It is a fork of https://github.com/Calvin-Huang/react-native-device-brightness, and has added the following features:
-
-- React Native 0.60 compatibility
-- iOS 13 compatibility
+It is a fork of https://github.com/adrianso/react-native-device-brightness, and has been updated to work with:
+- Android SDK 35
+- React Native 0.79.0
+- iOS 15
 
 ## Installation
 
 ```
-yarn add @adrianso/react-native-device-brightness
+yarn add @punosmobile/react-native-device-brightness
 ```
 
 ## Linking
@@ -43,4 +41,4 @@ console.log(brightness);
 
 ## License
 
-This software is licensed under the [MIT License](https://github.com/adrianso/react-native-device-brightness/blob/master/LICENSE).
+This software is licensed under the [MIT License](https://github.com/punosmobile/react-native-device-brightness/blob/master/LICENSE).
