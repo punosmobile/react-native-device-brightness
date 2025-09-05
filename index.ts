@@ -7,7 +7,7 @@ export const setBrightnessLevel = async (
 ): Promise<void> => {
   if (brightnessLevel < 0 || brightnessLevel > 1) {
     if (!(Platform.OS === 'android' && brightnessLevel === -1)) {
-      throw Error('⚠️ BrightnessLevel value must betweens 0 to 1 ⚠️');
+      throw Error('⚠️ BrightnessLevel value must be between 0 to 1 ⚠️');
     }
   }
 
