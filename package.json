@@ -1,6 +1,6 @@
 {
   "name": "@punosmobile/react-native-device-brightness",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Screen brightness adjustment tool for React Native",
   "homepage": "https://github.com/punosmobile/react-native-device-brightness#readme",
   "repository": {
@@ -21,7 +21,9 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
-    "lint": "eslint '**/*.{ts,tsx}'"
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint '**/*.{ts,tsx}'",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@types/react": "19.1.12",
